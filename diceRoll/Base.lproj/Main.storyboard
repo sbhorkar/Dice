@@ -38,6 +38,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8M-bE-brd">
+                                <rect key="frame" x="130" y="695" width="154" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="25"/>
+                                <state key="normal" title="# of Dice">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50196078430000002" green="0.79607843140000001" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -60,6 +69,86 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jip-T7-dxH">
+            <objects>
+                <viewController id="Egz-0M-ICt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rgu-SL-dLa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lH5-ak-4Nc">
+                                <rect key="frame" x="115" y="171" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="1 Die">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNg-E6-J0N">
+                                <rect key="frame" x="115" y="271" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="2 Dice">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhQ-1e-d2d">
+                                <rect key="frame" x="115" y="488" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="4 Dice">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6v-SI-ocB">
+                                <rect key="frame" x="115" y="592" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="5 Dice">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xhn-Zd-oJI">
+                                <rect key="frame" x="115" y="705" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="6 Dice">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wjv-QT-PJS">
+                                <rect key="frame" x="115" y="381" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="3 Dice">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50196078430000002" green="0.79607843140000001" blue="0.76862745099999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xhn-Zd-oJI" firstAttribute="leading" secondItem="hYl-8h-V1J" secondAttribute="leading" constant="115" id="0JD-6I-QT5"/>
+                            <constraint firstItem="hYl-8h-V1J" firstAttribute="trailing" secondItem="lH5-ak-4Nc" secondAttribute="trailing" constant="115" id="0h0-uG-oCA"/>
+                            <constraint firstItem="hYl-8h-V1J" firstAttribute="trailing" secondItem="Xhn-Zd-oJI" secondAttribute="trailing" constant="115" id="16B-n6-dus"/>
+                            <constraint firstItem="Xhn-Zd-oJI" firstAttribute="top" secondItem="y6v-SI-ocB" secondAttribute="bottom" constant="70" id="6hb-iP-ZAz"/>
+                            <constraint firstItem="Wjv-QT-PJS" firstAttribute="leading" secondItem="hYl-8h-V1J" secondAttribute="leading" constant="115" id="FCf-l7-MzX"/>
+                            <constraint firstItem="hYl-8h-V1J" firstAttribute="trailing" secondItem="lhQ-1e-d2d" secondAttribute="trailing" constant="115" id="Gfc-LP-oSF"/>
+                            <constraint firstItem="hYl-8h-V1J" firstAttribute="trailing" secondItem="Wjv-QT-PJS" secondAttribute="trailing" constant="115" id="PVv-3V-91g"/>
+                            <constraint firstItem="y6v-SI-ocB" firstAttribute="leading" secondItem="hYl-8h-V1J" secondAttribute="leading" constant="115" id="YDW-OJ-QVm"/>
+                            <constraint firstItem="lNg-E6-J0N" firstAttribute="leading" secondItem="hYl-8h-V1J" secondAttribute="leading" constant="115" id="cbI-aZ-fgd"/>
+                            <constraint firstItem="hYl-8h-V1J" firstAttribute="trailing" secondItem="y6v-SI-ocB" secondAttribute="trailing" constant="115" id="cwz-cQ-2uU"/>
+                            <constraint firstItem="y6v-SI-ocB" firstAttribute="top" secondItem="lhQ-1e-d2d" secondAttribute="bottom" constant="70" id="d0A-Ht-KMw"/>
+                            <constraint firstItem="lH5-ak-4Nc" firstAttribute="leading" secondItem="hYl-8h-V1J" secondAttribute="leading" constant="115" id="eH4-Fb-GUZ"/>
+                            <constraint firstItem="hYl-8h-V1J" firstAttribute="bottom" secondItem="Xhn-Zd-oJI" secondAttribute="bottom" constant="127" id="gr4-im-laX"/>
+                            <constraint firstItem="lNg-E6-J0N" firstAttribute="top" secondItem="lH5-ak-4Nc" secondAttribute="bottom" constant="70" id="pAo-uv-CFf"/>
+                            <constraint firstItem="Wjv-QT-PJS" firstAttribute="top" secondItem="lNg-E6-J0N" secondAttribute="bottom" constant="70" id="qWg-kj-jdR"/>
+                            <constraint firstItem="lhQ-1e-d2d" firstAttribute="leading" secondItem="hYl-8h-V1J" secondAttribute="leading" constant="115" id="u2D-Ts-Jde"/>
+                            <constraint firstItem="lhQ-1e-d2d" firstAttribute="top" secondItem="Wjv-QT-PJS" secondAttribute="bottom" constant="70" id="v1A-UW-jxj"/>
+                            <constraint firstItem="hYl-8h-V1J" firstAttribute="trailing" secondItem="lNg-E6-J0N" secondAttribute="trailing" constant="115" id="zAv-L2-s19"/>
+                            <constraint firstItem="lH5-ak-4Nc" firstAttribute="top" secondItem="hYl-8h-V1J" secondAttribute="top" constant="127" id="zVL-77-tEz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hYl-8h-V1J"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kWN-a3-nwn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="849.27536231884062" y="107.8125"/>
         </scene>
     </scenes>
 </document>
