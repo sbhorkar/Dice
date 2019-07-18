@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		4D9F757D22E02A1B007EFC98 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F757C22E02A1B007EFC98 /* ViewController2.swift */; };
 		4D9F757F22E02A49007EFC98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F757E22E02A49007EFC98 /* ViewController.swift */; };
-		4D9F758322E02D74007EFC98 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F758222E02D74007EFC98 /* ViewController4.swift */; };
 		4D9F758522E02DD3007EFC98 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F758422E02DD3007EFC98 /* ViewController3.swift */; };
+		4D9F758722E0E13D007EFC98 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F758622E0E13D007EFC98 /* ViewController4.swift */; };
+		4D9F758922E0E14D007EFC98 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F758822E0E14D007EFC98 /* ViewController5.swift */; };
 		4DA105E822DFBD750055C227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA105E722DFBD750055C227 /* AppDelegate.swift */; };
 		4DA105ED22DFBD750055C227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA105EB22DFBD750055C227 /* Main.storyboard */; };
 		4DA105EF22DFBD750055C227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA105EE22DFBD750055C227 /* Assets.xcassets */; };
@@ -20,8 +21,9 @@
 /* Begin PBXFileReference section */
 		4D9F757C22E02A1B007EFC98 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		4D9F757E22E02A49007EFC98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D9F758222E02D74007EFC98 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		4D9F758422E02DD3007EFC98 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		4D9F758622E0E13D007EFC98 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		4D9F758822E0E14D007EFC98 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 		4DA105E422DFBD750055C227 /* Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA105E722DFBD750055C227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA105EC22DFBD750055C227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +70,8 @@
 				4D9F757E22E02A49007EFC98 /* ViewController.swift */,
 				4D9F757C22E02A1B007EFC98 /* ViewController2.swift */,
 				4D9F758422E02DD3007EFC98 /* ViewController3.swift */,
-				4D9F758222E02D74007EFC98 /* ViewController4.swift */,
+				4D9F758622E0E13D007EFC98 /* ViewController4.swift */,
+				4D9F758822E0E14D007EFC98 /* ViewController5.swift */,
 			);
 			path = diceRoll;
 			sourceTree = "<group>";
@@ -148,7 +151,8 @@
 				4D9F757F22E02A49007EFC98 /* ViewController.swift in Sources */,
 				4DA105E822DFBD750055C227 /* AppDelegate.swift in Sources */,
 				4D9F757D22E02A1B007EFC98 /* ViewController2.swift in Sources */,
-				4D9F758322E02D74007EFC98 /* ViewController4.swift in Sources */,
+				4D9F758922E0E14D007EFC98 /* ViewController5.swift in Sources */,
+				4D9F758722E0E13D007EFC98 /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

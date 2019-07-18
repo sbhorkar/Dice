@@ -14,9 +14,6 @@ class ViewController3: UIViewController {
     @IBOutlet weak var diceNumber1: UIImageView!
     @IBOutlet weak var diceNumber2: UIImageView!
     
-    
-    var diceImages = ["Dice Red 1", "Dice Red 2", "Dice Red 3", "Dice Red 4", "Dice Red 5", "Dice Red 6"]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,8 +23,8 @@ class ViewController3: UIViewController {
         let dice1 = Int.random(in: 0...5)
         let dice2 = Int.random(in: 0...5)
         
-        diceNumber1.image = UIImage(named: diceImages[dice1])
-        diceNumber2.image = UIImage(named: diceImages[dice2])
+        diceNumber1.image = UIImage(named: dice[dice1])
+        diceNumber2.image = UIImage(named: dice[dice2])
     }
 }
 

@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController2: UIViewController {
     
-    var dice = ["Dice Red 1", "Dice Red 2", "Dice Red 3", "Dice Red 4", "Dice Red 5", "Dice Red 6"]
-    
     @IBOutlet weak var diceNum1: UIImageView!
     
     override func viewDidLoad() {
