@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:diceRoll.xcodeproj">
+      location = "self:/Users/sanabhorkar/Desktop/Sanaa/Swift/diceRoll/Dice.xcodeproj">
    </FileRef>
 </Workspace>
