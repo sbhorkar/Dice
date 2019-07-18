@@ -250,7 +250,7 @@
                         <viewLayoutGuide key="safeArea" id="UBx-ym-JnD"/>
                     </view>
                     <connections>
-                        <outlet property="dice1" destination="Q41-H0-hvJ" id="FFe-uT-YYv"/>
+                        <outlet property="diceNum1" destination="Q41-H0-hvJ" id="H61-Kp-O91"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cew-Z7-rCH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -274,6 +274,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="diceRoll:" destination="QoZ-Ug-eZf" eventType="touchUpInside" id="mFp-oD-8Nv"/>
                                     <action selector="diceRollClick:" destination="2bn-oZ-V0G" eventType="touchUpInside" id="045-pP-hmO"/>
                                     <action selector="diceRollClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hCd-mQ-HMA"/>
                                 </connections>
