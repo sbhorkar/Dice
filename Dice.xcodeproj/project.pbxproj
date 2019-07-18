@@ -65,10 +65,10 @@
 				4DA105EE22DFBD750055C227 /* Assets.xcassets */,
 				4DA105F022DFBD750055C227 /* LaunchScreen.storyboard */,
 				4DA105F322DFBD750055C227 /* Info.plist */,
-				4D9F757C22E02A1B007EFC98 /* ViewController2.swift */,
 				4D9F757E22E02A49007EFC98 /* ViewController.swift */,
-				4D9F758222E02D74007EFC98 /* ViewController4.swift */,
+				4D9F757C22E02A1B007EFC98 /* ViewController2.swift */,
 				4D9F758422E02DD3007EFC98 /* ViewController3.swift */,
+				4D9F758222E02D74007EFC98 /* ViewController4.swift */,
 			);
 			path = diceRoll;
 			sourceTree = "<group>";
